@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
+  final String idUser;
+
+  const ProfileScreen({required this.idUser});
   @override
   _ProfileScreenState createState() => _ProfileScreenState();
 }
